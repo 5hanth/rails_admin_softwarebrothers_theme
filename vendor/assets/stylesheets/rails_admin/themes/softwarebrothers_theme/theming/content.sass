@@ -17,9 +17,12 @@
     padding-top: 50px
 
   ul.nav.nav-tabs
-    background: $grayLight
+    background: #ebeff2;
+    box-shadow: -8px -8px 20px #FFFFFF, 8px 8px 10px lightgrey;
+    border-top-right-radius
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
     border: none
-    box-shadow: 0px 0px 10px #ccc
     z-index: 1
     li
       margin: 0 9px
@@ -40,13 +43,15 @@
         border-width: 4px
 
   & > .fieldset, & > form
-    background: #fff
-    box-shadow: 0px 5px 10px #ccc
-    z-index: 2
-    padding: 15px
+    background: #ebeff2;
+    box-shadow: 8px 8px 10px #ccc, -6px -6px 20px #fff;
+    z-index: 2;
+    padding: 15px;
   #list
-    background: #fff
-    box-shadow: 0px 5px 10px #ccc
+    background: #ebeff2;
+    box-shadow: -8px -8px 15px #FFFFFF, 8px 8px 15px lightgrey;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
     z-index: 2
     padding: 15px
     .well
@@ -61,3 +66,18 @@
     z-index: 2
     padding: 15px
     margin-bottom: 30px
+  input, textarea
+    box-shadow: inset -5px -5px 8px -1px white, inset 5px 5px 8px -1px lightgrey;
+    background: #ebeff2;
+    border: none;
+
+  .form-control:focus
+    box-shadow: inset -4px -4px 6px #fff8f0, inset 3px 3px 6px rgb(247, 145, 57)
+
+
+.fieldset    
+  .well
+   background-color: #E7EBEE !important;
+   border-radius: 10px !important;
+   box-shadow: -5px -5px 15px -5px white, 5px 5px 15px -5px lightgrey !important;
+
