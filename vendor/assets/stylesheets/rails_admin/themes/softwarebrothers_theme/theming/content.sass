@@ -45,7 +45,7 @@
 
   & > .fieldset, & > form
     background: #ebeff2;
-    box-shadow: 8px 8px 10px #ccc, -6px -6px 20px #fff;
+    box-shadow: inset 3px 3px 10px -2px #ccc, 3px 3px 10px -2px #ccc, inset -3px -3px 10px -2px #fff, -3px -3px 10px -2px #fff
     z-index: 2;
     padding: 15px;
   #list
@@ -68,11 +68,11 @@
     padding: 15px
     margin-bottom: 30px
   input, textarea, select
-    box-shadow: inset -5px -5px 8px -1px white, inset 5px 5px 8px -1px lightgrey
+    box-shadow: inset -3px -3px 3px -1px white, inset 3px 3px 3px -1px lightgrey, 2px 2px 2px -1px lightgrey, -2px -2px 2px -1px white
     background: #f5fbff
     border: none 
   .form-control:focus
-    box-shadow: inset -4px -4px 6px #fff8f0, inset 3px 3px 6px rgb(247, 145, 57)
+    box-shadow: inset -4px -4px 6px #f5fbff, inset 2px 2px 6px -2px #737373
 
   .label-info 
     background-color: #f2882d
